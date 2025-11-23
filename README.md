@@ -1,12 +1,12 @@
 # Cursor-Control
-Project Title
+## Project Title
 
 Gesture-Controlled Cursor Using Python
 
 
 ---
 
-Motivation
+## Motivation
 
 The purpose of this project is to explore touchless human–computer interaction using computer vision. Modern applications increasingly focus on gesture control, automation, and accessibility.
 This project demonstrates how a webcam can track hand movements and convert them into mouse actions such as cursor movement and clicking.
@@ -15,15 +15,15 @@ The goal is to create a simple, low-cost, contact-free alternative to a physical
 
 ---
 
-Data Description
+## Data Description
 
 This project does not use traditional datasets. Instead, it uses real-time webcam input as the data source.
 
-Data Sources & Format:
+### Data Sources & Format:
 
 Input Data: Live video frames captured using the system’s webcam (cv2.VideoCapture(0)).
 
-Data Processing:
+### Data Processing:
 
 Frames are converted to RGB format.
 
@@ -32,7 +32,7 @@ Mediapipe extracts 21 hand landmarks from each frame.
 Coordinates of specific landmarks (index finger tip ID 8, thumb tip ID 4) are used to calculate cursor movement and click gestures.
 
 
-Output Data:
+## Output Data:
 
 Cursor movement on the computer screen.
 
@@ -40,7 +40,7 @@ Mouse click events detected from gesture distance.
 
 
 
-How Data Is Created:
+## How Data Is Created:
 
 Data is created dynamically from the user's real-time hand movement.
 
@@ -50,7 +50,7 @@ No external files, CSV, images, or datasets are used.
 
 ---
 
-How to Use
+## How to Use
 
 1. Install Required Libraries
 
@@ -91,14 +91,14 @@ Contact Information
 
 For questions or collaboration, contact:
 
-Name: [Your Name]
-Email: [Your Email]
-GitHub (optional): [Your GitHub Profile]
+Name: Shaikh Modasshir Rabbani
+Email: modasshr2007@gmail.com
+GitHub: modasshir1610 
 
 
 ---
 
-License
+## License
 
 This project is licensed under the MIT License, meaning:
 
@@ -112,7 +112,7 @@ The project is provided “as-is” without warranty.
 
 ---
 
-Notes
+## Notes
 
 Ensure proper lighting for better hand tracking.
 
