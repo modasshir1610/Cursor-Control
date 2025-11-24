@@ -92,15 +92,13 @@ Contact Information
 For questions or collaboration, contact:
 
 Name: Shaikh Modasshir Rabbani
-Email: modasshr2007@gmail.com
-GitHub: modasshir1610 
+Email: shaikh.25mim10082@vitbhopal.ac.in
+GitHub: modasshir1610
 
 
 ---
 
 ## License
-
-This project is licensed under the MIT License, meaning:
 
 You are free to use, modify, and distribute the code.
 
